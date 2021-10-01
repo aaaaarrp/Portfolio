@@ -1,0 +1,25 @@
+a {
+    color: #1772d0;
+    text-decoration:none;
+}
+a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+}
+body,td,th {
+    background-color: rgb(241, 220, 220);
+      font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: 400;
+      margin: 8;
+      padding-bottom: 0;
+}
+
+
+#achievements{
+    font-size: 20px;
+    margin-top:  0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
