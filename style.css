@@ -7,7 +7,7 @@ a:focus, a:hover {
     text-decoration:none;
 }
 body,td,th {
-    background-color: rgb(241, 220, 220);
+    background-color: rgb(185, 226, 196);
       font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
       font-size: 17px;
       font-weight: 400;
@@ -22,4 +22,8 @@ body,td,th {
     margin-bottom: 0;
     margin-left: 0;
 
+}
+
+#email{
+    color: black;
 }
