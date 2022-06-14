@@ -7,7 +7,7 @@ a:focus, a:hover {
     text-decoration:none;
 }
 body,td,th {
-    background-color: rgb(185, 226, 196);
+    background-color: rgb(7, 26, 42);
       font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
       font-size: 17px;
       font-weight: 400;
@@ -26,4 +26,28 @@ body,td,th {
 
 #email{
     color: black;
+}
+
+#list {
+	margin: 2em auto;
+	padding: 0;
+	max-width: 600px;
+	list-style: none;
+	height: 15em;
+}
+
+#fadeInDown {
+	text-align: center;
+	animation: fadeIn 2s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -30%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }
